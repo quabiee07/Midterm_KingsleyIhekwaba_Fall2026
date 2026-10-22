@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
 
-public class InvalidPersonException {
+class InvalidPersonException extends Exception {
+    public InvalidPersonException(String m) {
+        super(m);
+    }
 }
+
